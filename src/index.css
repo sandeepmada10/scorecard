@@ -1,13 +1,36 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.scorecard{
+  display:flex;
+  margin-left: 400px;
+}
+.team-a{
+  padding: 30px;
+  border: 1px solid black;
+  
+}
+.team-b{
+  padding: 30px;
+  border: 1px solid black;
+  
+}
+h1{
+  justify-content: center;
+  align-items: center;
+  margin-left: 600px;
+  margin-right: 600px;
+}
+.score{
+  border:1px solid black;
+  width: auto;
+  height: 100vh;
+}
+.wickets{
+  padding-top: 20px;
+}
+button{
+  margin: 5px;
+  padding: 10px;
+}
+body{
+  background-color: rgb(12, 164, 235);
 }
